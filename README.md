@@ -1,2 +1,5 @@
 # benchmarks-dotnet
-A public repository of benchmarks 
+
+A set of benchmarks.
+
+- [GetHashCode](./afnpires.Benchmarks.DotNet/GetHashCodeImplementation/GetHashCode.Benchmarks.md)

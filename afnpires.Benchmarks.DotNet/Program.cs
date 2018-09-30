@@ -1,12 +1,13 @@
-﻿using System;
-
-namespace afnpires.Benchmarks.DotNet
+﻿namespace afnpires.Benchmarks.DotNet
 {
-    class Program
+    using afnpires.Benchmarks.DotNet.GetHashCodeImplementation;
+    using BenchmarkDotNet.Running;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var summary = BenchmarkRunner.Run<GetHashCodeTest>();
         }
     }
 }
